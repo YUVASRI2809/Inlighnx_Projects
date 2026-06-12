@@ -1,33 +1,39 @@
-# 💰 Expense Tracker
+# 🎬 Movie Search App
 
 ## Project Description
-Expense Tracker is a web application that helps users manage their income and expenses. Users can add transactions and monitor their financial balance.
+Movie Search App allows users to search for movies and view detailed information using the OMDb API.
 
 ## Technologies Used
 - HTML
 - CSS
-- JavaScript
+- JavaScript (ES6)
+- Fetch API
+- OMDb API
 
 ## Features
-- Add income and expense transactions.
-- Calculate total balance.
-- Display transaction history.
-- Delete transactions.
-- Local Storage support.
+- Search movies by title.
+- Display movie posters.
+- Show release year and movie details.
+- Responsive user interface.
+- Error handling for invalid searches.
 
 ## Project Structure
-EXPENCE_TRACKER/
+MOVIE_SEARCH_APP/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
 
+## API Used
+OMDb API: https://www.omdbapi.com/
+
 ## How to Run
-1. Download or clone the repository.
-2. Open `index.html` in your browser.
+1. Obtain an OMDb API key.
+2. Replace the API key in `script.js`.
+3. Open `index.html` in your browser.
 
 ## Learning Outcomes
-- Array operations
-- Local Storage
-- Event handling
-- DOM manipulation
+- Working with REST APIs
+- Fetch API
+- JSON handling
+- Dynamic DOM updates
