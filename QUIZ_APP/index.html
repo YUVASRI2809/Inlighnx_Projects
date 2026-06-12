@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+
+        <!-- Quiz Header -->
+        <div class="quiz-header">
+            <h1>🧠 Interactive Quiz</h1>
+
+            <!-- Question Counter -->
+            <p id="questionCounter">
+                Question 1 of 5
+            </p>
+
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div id="progressBar" class="progress-bar"></div>
+            </div>
+        </div>
+
+        <!-- Quiz Section -->
+        <div id="quizSection">
+
+            <!-- Question -->
+            <div class="question-box">
+                <h2 id="questionText">
+                    Question will appear here
+                </h2>
+            </div>
+
+            <!-- Answer Choices -->
+            <div id="answerContainer" class="answer-container">
+                <!-- Options will be generated using JavaScript -->
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="button-group">
+
+                <button id="submitButton">
+                    Submit Answer
+                </button>
+
+                <button id="nextButton" style="display: none;">
+                    Next Question
+                </button>
+
+                <button id="viewResultsButton" style="display: none;">
+                    View Results
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Results Section -->
+        <div id="resultsSection" class="results-section" style="display: none;">
+
+            <h2>🎉 Quiz Completed!</h2>
+
+            <!-- Final Score -->
+            <p id="scoreText">
+                Your Score: 0 / 0
+            </p>
+
+            <!-- Answer Summary -->
+            <div id="summaryContainer">
+                <!-- Summary generated using JavaScript -->
+            </div>
+
+            <!-- Restart Button -->
+            <button id="restartButton">
+                Restart Quiz
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

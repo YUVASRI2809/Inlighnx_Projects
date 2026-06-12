@@ -1,0 +1,105 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial, sans-serif;
+  background:#f4f4f4;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+
+.container{
+  width:400px;
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h1,h2,h3{
+  text-align:center;
+}
+
+.balance-container{
+  margin:20px 0;
+  text-align:center;
+}
+
+#balance{
+  color:#2e7d32;
+  margin-top:10px;
+}
+
+form{
+  display:flex;
+  flex-direction:column;
+}
+
+form input,
+form select,
+form button{
+  padding:12px;
+  margin:10px 0;
+  border:1px solid #ccc;
+  border-radius:5px;
+  font-size:16px;
+}
+
+form button{
+  background:#1976d2;
+  color:white;
+  border:none;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+form button:hover{
+  background:#0d47a1;
+}
+
+#errorMessage{
+  color:red;
+  text-align:center;
+  margin-top:10px;
+}
+
+.history-container{
+  margin-top:25px;
+}
+
+#transactionList{
+  list-style:none;
+}
+
+.transaction-item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px;
+  margin:10px 0;
+  border-radius:5px;
+  background:#fafafa;
+  border-left:5px solid;
+}
+
+.income{
+  border-color:green;
+}
+
+.expense{
+  border-color:red;
+}
+
+.delete-btn{
+  background:red;
+  color:white;
+  border:none;
+  padding:5px 10px;
+  border-radius:5px;
+  cursor:pointer;
+}
